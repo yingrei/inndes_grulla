@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Juego de suma</title>
+	<link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+	<h1>Juego de suma</h1>
+	<div class="container">
+		<div class="Puntos" id="Puntos">Puntos:</div>
+		<div class="izquierdo">
+			<div class="container-operacion">
+				<span id="suma">99 + 1 =</span>
+				<span class="resultado" id="resultado">100</span>
+			</div>
+			<span id="msj" class="msj">EXCELENTE!!</span>
+		</div>
+
+		<div class="derecha">
+			<span id="op1" class="opcion" onclick="controlarRespuesta(this)">100</span>
+			<span id="op2" class="opcion" onclick="controlarRespuesta(this)">100</span>
+			<span id="op3" class="opcion" onclick="controlarRespuesta(this)">100</span>
+	 	</div>
+	</div>
+	<div><a href="javaScript:history.back()">Volver</a></div>
+	
+	<script src="newjava.js"></script>
+</body>
+</html>

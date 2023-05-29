@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TABLA DEL 2</title>
+	
+</head>
+<body>
+ <h1>Juego de multiplicacion</h1>
+ <div class="container">
+	<div class="Puntos" id="Puntos">Puntos: </div>
+		<div class="izquierdo">
+			<div class="container-operacion">
+				<span id="mlt">2 * 2 =</span>
+				<span class="resultado" id="resultado">4</span>
+			</div>
+			<span id="msj" class="msj">EXCELENTE!!</span>
+		</div>
+
+		<div class="derecha">
+			<span id="op1" class="opcion" onclick="controlarRespuesta(this)">4</span>
+			<span id="op2" class="opcion" onclick="controlarRespuesta(this)">4</span>
+			<span id="op3" class="opcion" onclick="controlarRespuesta(this)">4</span>
+	 	</div>
+	</div>
+<style>
+	*{
+
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box ;
+	}
+	body{
+		background: rgba(78, 221, 109, 0.943);
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		font-family: calibri;
+		font-size: 120%;
+		
+}
+
+	h1{ 
+		padding: 30px;
+		color: darkgreen;
+	}
+	.container{
+		border-radius: 15px;
+		max-width: 800px;
+		max-height: 600px;
+		width: 70%;
+		color: white;
+		background: darkolivegreen;
+		width: 98vw;
+		height: 97vh;
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.izquierdo{
+		width: 70%;
+		font-size: 80px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.derecha{
+		width: 30%;
+	}
+	.msj{
+		font-size: 40px;
+		height: 50px;
+	}
+	.opcion{
+		border-radius: 15px;
+		color: white;
+		justify-content: center;
+		align-items: center;
+		font-size: 50px;
+		background-color: rgba(15, 162, 76, 0.779);
+		display: block;
+		max-width:600px;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	.opcion:hover{
+		background-color: #63ae59;
+	}
+	.Puntos{
+	color: white;
+	font-size: 40px;
+}
+</style>
+ <script>
+
+var num1, num2;
+var respuesta;
+var indiceOpCorrecta;
+Puntos = 0;
+necesqrios= 10;
+
+txt_mlt = document.getElementById("mlt");
+op1 = document.getElementById ("op1");
+op2 = document.getElementById ("op2");
+op3 = document.getElementById ("op3");
+txt_msj = document.getElementById("msj");
+txt_resultado = document.getElementById("resultado");
+
+function comenzar(){
+	txt_resultado.innerHTML = "?"; 
+	txt_msj.innerHTML = "";
+	num1 = Math.round(Math.random()*10);
+	num2 = Math.round(Math.random()*10);
+	respuesta = num1 * num2;
+	txt_mlt.innerHTML = num1 + " x " + num2 + " = ";
+
+	indiceOpCorrecta = Math.round(Math.random()*2);
+	if (indiceOpCorrecta==0) {
+		 op1.innerHTML = respuesta;
+		 op2.innerHTML = respuesta - 2;
+		 op3.innerHTML = respuesta + 2;
+	}
+	if(indiceOpCorrecta ==1){
+		op2.innerHTML = respuesta;
+		op1.innerHTML = respuesta + 2;
+		op3.innerHTML = respuesta * 2;
+	}
+	if(indiceOpCorrecta==2){
+		op3.innerHTML = respuesta;
+		op1.innerHTML = respuesta + 4;
+		op2.innerHTML = respuesta + 1;
+}
+}
+
+
+function controlarRespuesta(opcionElegida){
+	txt_resultado.innerHTML = opcionElegida.innerHTML;
+
+	if (respuesta == opcionElegida.innerHTML) {
+		Puntos++;
+		document.getElementById("Puntos").innerHTML= "Puntos: <b>" + Puntos + "/" + necesqrios +"  </b>";	
+		if (Puntos == 10){
+			alert("felicidades ganaste");
+		}
+		txt_msj.innerHTML = "EXCELENTE!!";
+		txt_msj.style.color = "black";
+		setTimeout(comenzar, 2000);
+	}
+	else{
+		Puntos--;
+		document.getElementById("Puntos").innerHTML= "Puntos: <b>" + Puntos + "/" + necesqrios +"  </b>";	
+		if (Puntos == 0) {
+			alert("PERDISTE");
+		}
+		txt_msj.innerHTML = "VUELVE A INTENTARLO";
+		txt_msj.style.color = "red"; 
+		setTimeout(limpiar, 2000);
+	}
+}
+function limpiar(){
+		txt_resultado.innerHTML = "?"; 
+		txt_msj.innerHTML = "";
+}
+
+comenzar();
+  
+</script>
+</body>
+</html>

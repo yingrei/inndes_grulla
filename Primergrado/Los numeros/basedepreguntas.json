@@ -1,0 +1,107 @@
+[
+    {
+        "categoria": "CONTAR",
+        "pregunta": "¿CUANTAS MANZANAS VES?",
+        "respuesta": "1",
+        "incorrecta1": "4",
+        "incorrecta2": "2",
+        "incorrecta3":"5",
+        "imagen":"mov.gif",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "CONTAR",
+        "pregunta": "¿CUANTAS MANZANAS VES?",
+        "respuesta": "2",
+        "incorrecta1": "7",
+        "incorrecta2": "3",
+        "incorrecta3":"5",
+        "imagen":"https://st2.depositphotos.com/3484379/7184/v/450/depositphotos_71845295-stock-illustration-two-realistic-apples.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "CONTAR",
+        "pregunta": "¿CUANTAS MANZANAS VES?",
+        "respuesta": "3",
+        "incorrecta1": "9",
+        "incorrecta2": "2",
+        "incorrecta3":"0",
+        "imagen":"https://image.shutterstock.com/image-vector/set-3-vector-coloured-apples-260nw-1809987631.jpg",
+        "objectFit": "contain" 
+    },
+    {
+        "categoria": "CONTAR",
+        "pregunta": "¿CUANTAS MANZANAS VES?",
+        "respuesta": "4",
+        "incorrecta1": "1",
+        "incorrecta2": "5",
+        "incorrecta3":"9",
+        "imagen":"https://img.freepik.com/vector-premium/conjunto-cuatro-manzanas-kawaii-haciendo-diferentes-actividades-deportivas_625165-6.jpg?w=740",
+        "objectFit": "contain" 
+    }, {
+        "categoria": "CONTAR",
+        "pregunta": "¿CUANTAS MANZANAS VES?",
+        "respuesta": "5",
+        "incorrecta1": "10",
+        "incorrecta2": "2",
+        "incorrecta3":"6",
+        "imagen":"https://thumbs.dreamstime.com/b/cinco-manzanas-135055221.jpg",
+        "objectFit": "contain" 
+    }, {
+        "categoria": "CONTAR",
+        "pregunta": "¿CUANTAS MANZANAS VES?",
+        "respuesta": "6",
+        "incorrecta1": "7",
+        "incorrecta2": "1",
+        "incorrecta3":"5",
+        "imagen":"https://img.freepik.com/vector-premium/conjunto-personaje-mascota-dibujos-animados-manzana-sonriente-coleccion_508290-1647.jpg?w=2000",
+        "objectFit": "contain" 
+    }, {
+        "categoria": "CONTAR",
+        "pregunta": "¿CUANTAS MANZANAS VES?",
+        "respuesta": "7",
+        "incorrecta1": "8",
+        "incorrecta2": "2",
+        "incorrecta3":"3",
+        "imagen":"http://c.files.bbci.co.uk/44A6/production/_109247571_apples1.jpg",
+        "objectFit": "contain" 
+    }, {
+        "categoria": "CONTAR",
+        "pregunta": "¿CUANTAS MANZANAS VES?",
+        "respuesta": "8",
+        "incorrecta1": "3",
+        "incorrecta2": "7",
+        "incorrecta3":"5",
+        "imagen":"https://quizizz.com/_media/questions/2bb7ece7-c7c8-45cf-b4f8-3b6063e5f0d7_90_90",
+        "objectFit": "contain" 
+    }, {
+        "categoria": "CONTAR",
+        "pregunta": "¿CUANTAS MANZANAS VES?",
+        "respuesta": "9",
+        "incorrecta1": "7",
+        "incorrecta2": "8",
+        "incorrecta3":"10",
+        "imagen":"https://c8.alamy.com/compes/s3774k/9-manzanas-en-un-cuadrado-sobre-una-toalla-verde-de-cuadros-s3774k.jpg",
+        "objectFit": "contain" 
+    }, {
+        "categoria": "CONTAR",
+        "pregunta": "¿CUANTAS MANZANAS VES?",
+        "respuesta": "10",
+        "incorrecta1": "7",
+        "incorrecta2": "2",
+        "incorrecta3":"5",
+        "imagen":"https://illustoon.com/photo/376.png",
+        "objectFit": "contain" 
+    },
+    {
+        "categoria": "CONTAR",
+        "pregunta": "¿CUANTAS MANZANAS VES?",
+        "respuesta": "1000000000000000000000000000000000000000000099",
+        "incorrecta1": "10000000000000000000000000000000000000000000001",
+        "incorrecta2": "10000000000000000000000000000000000000000000002",
+        "incorrecta3":"10000000000000000000000000000000000000000000005",
+        "imagen":"http://blog.lacolmenaquedicesi.es/upload2/sites/3/2014/06/apples1.jpg",
+        "objectFit": "contain" 
+    }
+    
+]

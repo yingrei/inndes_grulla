@@ -1,0 +1,68 @@
+[
+    {
+        "categoria": "GEOMETRIA",
+        "pregunta": "¿Cuantos lados tiene un triangulo?",
+        "respuesta": "3",
+        "incorrecta1": "2",
+        "incorrecta2": "5",
+        "incorrecta3":"4"
+      
+    }, {
+        "categoria": "GEOMETRIA",
+        "pregunta": "¿Como se llama esta figura?",
+        "respuesta": "Hexagono",
+        "incorrecta1": "Triangulo",
+        "incorrecta2": "Pentagono",
+        "incorrecta3":"Rectangulo",
+        "imagen":"data:image/png;base64,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",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "GEOMETRIA",
+        "pregunta": "¿Cuantos lados tiene un circulo?",
+        "respuesta": "No tiene lados",
+        "incorrecta1": "No se pueden contar",
+        "incorrecta2": "3 lados",
+        "incorrecta3":"1 lado"
+    },
+    {
+        "categoria": "GEOMETRIA",
+        "pregunta": "¿Como se llaman estas figuras?",
+        "respuesta": "Triangulo",
+        "incorrecta1": "Cuadrado",
+        "incorrecta2": "Cono",
+        "incorrecta3":"Romboide",
+        "imagen":"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "GEOMETRIA",
+        "pregunta": "¿Cual de estas figuras tiene 3 lados?",
+        "respuesta": "Triangulo",
+        "incorrecta1": "Octagono",
+        "incorrecta2": "Pentagono",
+        "incorrecta3":"Rectangulo"
+    },
+    {
+        "categoria": "GEOMETRIA",
+        "pregunta": "¿Como se llama esta figura?",
+        "respuesta": "Pentagono",
+        "incorrecta1": "Hexagono",
+        "incorrecta2": "Rectangulo",
+        "incorrecta3":"Romboide",
+        "imagen":"https://img2.freepng.es/20180621/ui/kisspng-shape-pentagon-regular-polygon-equilateral-triangl-pentagono-5b2b5082f029e6.3283397615295653149837.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "GEOMETRIA",
+        "pregunta": "¿Que es un lado?",
+        "respuesta": "Los lados son las líneas que forman una figura",
+        "incorrecta1": "Figura recta que va desde un punto A hasta un punto B.",
+        "incorrecta2": "Figura geométrica plana de cuatro lados",
+        "incorrecta3": "Línea curva cerrada y plana con todos sus puntos a igual distancia del centro",
+        "imagen":"",
+        "objectFit": "contain"
+    }
+    
+    
+]

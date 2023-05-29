@@ -1,0 +1,74 @@
+#icono{
+	border-radius: 50%;
+}
+* ¨{text-align: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: url(volando1.gif);
+	background-repeat:no-repeat;
+	background-size: 100%, 100%;
+	
+
+}
+
+h1 {
+	
+	font-size: 55px;
+	text-align:center;
+	color: #000;
+	max-width:350px;
+	margin:auto;
+	margin-top: 30px;
+	display: flex;
+	padding: 10px 0;
+	
+}
+
+.G1 {
+	font-size: 30px;
+	background-color: lightgoldenrodyellow;
+	text-align: center;
+	color: #000;
+	max-width:350px;
+	margin:auto;
+	margin-top: 30px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	display: flex;
+	padding: 30px 0;
+	justify-content: center;
+	
+}
+
+.G2 { 
+	font-size: 30px;
+	background-color: lightpink ;
+	text-align: center;
+	color: #000;
+	max-width:350px;
+	margin:auto;
+	margin-top: 30px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	display: flex;
+	padding: 30px 0;
+	justify-content: center;
+}
+.G3
+	{
+	font-size: 30px;
+	background-color: lightgreen ;
+	text-align: center;
+	color: #000;
+	max-width:350px;
+	margin:auto;
+	margin-top: 30px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	display: flex;
+	padding: 30px 0;
+	justify-content: center;
+}

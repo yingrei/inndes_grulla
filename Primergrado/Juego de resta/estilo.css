@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box ;
+}
+body{
+	background: rgba(109, 185, 215, 0.769);
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: calibri;
+	font-size: 120%;
+}
+h1{
+	padding: 30px;
+	color: rgba(10, 10, 144, 0.934)
+}
+.container{
+	border-radius: 15px;
+	max-width: 800px;
+	max-height: 600px;
+	width: 70%;
+	color: white;
+	background: darkolivegreen;
+	width: 98vw;
+	height: 97vh;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.izquierdo{
+	width: 70%;
+	font-size: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.derecha{
+	width: 30%;
+}
+.msj{
+	font-size: 40px;
+	height: 50px;
+}
+.opcion{
+	border-radius: 15px;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	background-color: rgba(8, 24, 143, 0.638);
+	display: block;
+    max-width:600px;
+	padding: 10px;
+    margin-bottom: 10px;
+}
+.opcion:hover{
+	background-color: rgb(129, 66, 218);
+}
+
+.Puntos{
+	color: white;
+	font-size: 40px;
+}

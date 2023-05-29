@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box ;
+}
+body{
+	text-align: center;
+	color: #262626;
+	background: url(imagen2.jpg)
+
+}
+
+h1{ 
+	font-size: 50px;
+	background-color: lightpink;
+	text-align: center;
+	color: #000;
+	max-width:350px;
+	margin:auto;
+	margin-top: 30px;
+	border: 2px solid lightpink;
+	border-radius: 10px;
+	display: flex;
+	padding: 10px 0;
+	justify-content: center;
+	
+
+}
+.container{
+	background: url(PIH.jpg);
+	color: black;
+	max-width: 700px;
+	margin: auto;
+	margin-top: 30px ;
+	border: 2px solid #000;
+	border-radius: 20px;
+	display: flex;
+	padding: 50px 0 ; 
+}
+.izquierdo{
+	width: 70%;
+	font-size: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.derecha{
+	width: 30%;
+}
+.msj{
+	font-size: 40px;
+	height: 50px;
+}
+.opcion{
+	width: 80px;
+	height: 80px;
+	border: 1px solid pink;
+	font-size: 50px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: violet;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.opcion: hover{
+	background-color: #262626;
+}
